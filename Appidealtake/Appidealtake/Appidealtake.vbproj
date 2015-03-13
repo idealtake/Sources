@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7426B0F-F125-47E7-A506-D95D0E86FD1D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>IDEALTAKE.My.MyApplication</StartupObject>
+    <RootNamespace>IDEALTAKE</RootNamespace>
+    <AssemblyName>Appidealtake</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>\\DISKSTATION\web\Application Files\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <InstallUrl>http://idealtake.dyndns-ip.com/Application%2520Files/</InstallUrl>
+    <SupportUrl>http://idealtake.dyndns-ip.com</SupportUrl>
+    <TargetCulture>fr</TargetCulture>
+    <ProductName>Idealtake</ProductName>
+    <PublisherName>TVIEIL</PublisherName>
+    <SuiteName>Idealtake</SuiteName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>3855</ApplicationRevision>
+    <ApplicationVersion>1.5.517.3855</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Appidealtake.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Appidealtake.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icone01_04_2013.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C2F4615664CF1B8B438848C2744D49CBA58556C3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Appidealtake_3_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>ClefdeNomFortIdealatke.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CLASS_IDEALTAKE, Version=1.0.41.70, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CLASS_IDEALTAKE.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ajout_Suppresion_connexion_base.designer.vb">
+      <DependentUpon>Ajout_Suppresion_connexion_base.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ajout_Suppresion_connexion_base.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attente_Chargement.designer.vb">
+      <DependentUpon>Attente_Chargement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Attente_Chargement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CryptoUtil.vb" />
+    <Compile Include="Form_Demarrage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Demarrage.Designer.vb">
+      <DependentUpon>Form_Demarrage.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm1.designer.vb">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Parametres.designer.vb">
+      <DependentUpon>Parametres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question_Box.designer.vb">
+      <DependentUpon>Question_Box.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question_Box.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl1.designer.vb">
+      <DependentUpon>UserControl1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Ajout_Suppresion_connexion_base.resx">
+      <DependentUpon>Ajout_Suppresion_connexion_base.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attente_Chargement.resx">
+      <DependentUpon>Attente_Chargement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Demarrage.resx">
+      <DependentUpon>Form_Demarrage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm1.resx">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametres.resx">
+      <DependentUpon>Parametres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question_Box.resx">
+      <DependentUpon>Question_Box.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Appidealtake_1_TemporaryKey.pfx" />
+    <None Include="Appidealtake_2_TemporaryKey.pfx" />
+    <None Include="Appidealtake_3_TemporaryKey.pfx" />
+    <None Include="Appidealtake_CléTemporaire.pfx" />
+    <None Include="Appidealtake_TemporaryKey.pfx" />
+    <None Include="ClefdeNomFortIdealatke.pfx" />
+    <None Include="lightbox\README.markdown" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="shutter-reloaded\admin-page.php" />
+    <None Include="shutter-reloaded\languages\srel-l10n-cs_CZ.mo" />
+    <None Include="shutter-reloaded\languages\srel-l10n-cs_CZ.po" />
+    <None Include="shutter-reloaded\languages\srel-l10n-da_DK.mo" />
+    <None Include="shutter-reloaded\languages\srel-l10n-da_DK.po" />
+    <None Include="shutter-reloaded\languages\srel-l10n-de_DE.mo" />
+    <None Include="shutter-reloaded\languages\srel-l10n-de_DE.po" />
+    <None Include="shutter-reloaded\languages\srel-l10n-es_ES.mo" />
+    <None Include="shutter-reloaded\languages\srel-l10n-es_ES.po" />
+    <None Include="shutter-reloaded\languages\srel-l10n-fr_FR.mo" />
+    <None Include="shutter-reloaded\languages\srel-l10n-fr_FR.po" />
+    <None Include="shutter-reloaded\languages\srel-l10n-nl_NL.mo" />
+    <None Include="shutter-reloaded\languages\srel-l10n-nl_NL.po" />
+    <None Include="shutter-reloaded\languages\srel-l10n-zh_TW.mo" />
+    <None Include="shutter-reloaded\languages\srel-l10n-zh_TW.po" />
+    <None Include="shutter-reloaded\languages\srel-l10n.pot" />
+    <None Include="shutter-reloaded\shutter-reloaded.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Réinitialiser_V11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="beep.wav" />
+    <Content Include="icone01_04_2013.ico" />
+    <Content Include="Licence_GPL.txt" />
+    <Content Include="lightbox\css\lightbox.css" />
+    <Content Include="lightbox\css\screen.css" />
+    <Content Include="lightbox\img\close.png" />
+    <Content Include="lightbox\img\demopage\donate.png" />
+    <Content Include="lightbox\img\demopage\favicon.ico" />
+    <Content Include="lightbox\img\demopage\image-1.jpg" />
+    <Content Include="lightbox\img\demopage\image-2.jpg" />
+    <Content Include="lightbox\img\demopage\image-3.jpg" />
+    <Content Include="lightbox\img\demopage\image-4.jpg" />
+    <Content Include="lightbox\img\demopage\image-5.jpg" />
+    <Content Include="lightbox\img\demopage\image-6.jpg" />
+    <Content Include="lightbox\img\demopage\thumb-1.jpg" />
+    <Content Include="lightbox\img\demopage\thumb-2.jpg" />
+    <Content Include="lightbox\img\demopage\thumb-3.jpg" />
+    <Content Include="lightbox\img\demopage\thumb-4.jpg" />
+    <Content Include="lightbox\img\demopage\thumb-5.jpg" />
+    <Content Include="lightbox\img\demopage\thumb-6.jpg" />
+    <Content Include="lightbox\img\loading.gif" />
+    <Content Include="lightbox\img\next.png" />
+    <Content Include="lightbox\img\prev.png" />
+    <Content Include="lightbox\index.html" />
+    <Content Include="lightbox\js\jquery-1.10.2.min.js" />
+    <Content Include="lightbox\js\lightbox-2.6.min.js" />
+    <Content Include="lightbox\js\modernizr.custom.js" />
+    <Content Include="liste_des_connexions.xml" />
+    <Content Include="MiniVLCPlayer.exe" />
+    <Content Include="SAPI5.exe" />
+    <Content Include="shutter-reloaded\Installationsvejledning.txt" />
+    <Content Include="shutter-reloaded\menu\close.gif" />
+    <Content Include="shutter-reloaded\menu\loading.gif" />
+    <Content Include="shutter-reloaded\menu\next-d.gif" />
+    <Content Include="shutter-reloaded\menu\next.gif" />
+    <Content Include="shutter-reloaded\menu\prev-d.gif" />
+    <Content Include="shutter-reloaded\menu\prev.gif" />
+    <Content Include="shutter-reloaded\menu\resize-d.gif" />
+    <Content Include="shutter-reloaded\menu\resize1.gif" />
+    <Content Include="shutter-reloaded\menu\resize2.gif" />
+    <Content Include="shutter-reloaded\readme.txt" />
+    <Content Include="shutter-reloaded\shutter-reloaded.css" />
+    <Content Include="shutter-reloaded\shutter-reloaded.dev.js" />
+    <Content Include="shutter-reloaded\shutter-reloaded.js" />
+    <Content Include="TransfertIdealtake.exe" />
+    <Content Include="Diagnostic_connexion.exe" />
+    <Content Include="ffplay.exe" />
+    <Content Include="new_icone.ico" />
+    <None Include="Resources\Texture100_100_5.jpg" />
+    <None Include="Resources\Texture100_100_4.jpg" />
+    <None Include="Resources\Texture100_100_3.jpg" />
+    <None Include="Resources\Texture100_100_2.jpg" />
+    <None Include="Resources\Texture100_100_1.jpg" />
+    <None Include="Resources\Pict0026j.jpg" />
+    <None Include="Resources\Pict0025j.jpg" />
+    <None Include="Resources\Pict0024j.jpg" />
+    <None Include="Resources\Pict0023j.jpg" />
+    <None Include="Resources\Pict0022j.jpg" />
+    <None Include="Resources\Pict0021j.jpg" />
+    <None Include="Resources\Pict0020j.jpg" />
+    <None Include="Resources\Pict0019j.jpg" />
+    <None Include="Resources\Pict0018j.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="NetFwTypeLib">
+      <Guid>{58FBCF7C-E7A9-467C-80B3-FC65E8FCCA08}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Appidealtake.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Appidealtake.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="liste_des_connexions.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

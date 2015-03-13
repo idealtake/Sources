@@ -1,0 +1,972 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="MenuStripZoomWeb1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>356, 134</value>
+  </metadata>
+  <metadata name="MenuStripZoomWeb1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="RS_Reference_ContextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 485</value>
+  </metadata>
+  <metadata name="MenuStrip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>952, 446</value>
+  </metadata>
+  <metadata name="MenuStripZoomWeb2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>897, 95</value>
+  </metadata>
+  <metadata name="MenuStripZoomWeb2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ContextMenuStripAjouterTypeDocument.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>244, 173</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PictureBoxPersonnaliserBasEcran.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQEBAQIBAQECAgICAgQDAgICAgUEBAMEBgUGBgYFBgYG
+        BwkIBgcJBwYGCAsICQoKCgoKBggLDAsKDAkKCgr/2wBDAQICAgICAgUDAwUKBwYHCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr/wAARCAAeAB4DASIAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9z7j/AITHzn8v/hLdu87fL/sfbj23c4+vNM/4rT/qcP8AyjVm
+        XelaQ13I0mhaSzFzlm+Gl45Jz/eDYb69+tR/2Ro//QA0f/w2F5/8VXpcsey/8BZyXfd/ejX/AOK0/wCp
+        w/8AKNR/xWn/AFOH/lGrI/snRv8AoAaP/wCGvvf/AIqj+ydG/wCgBo//AIa+9/8AiqOWPZf+AsV33f3o
+        ku9W0dbqUNrukAiRtwb4l3iEc91C4X6dqj/tfR/+g/o//hz7z/4msu/+Onhy11Ce0fxT4tDRSurCOx04
+        qMHHGUzj61Gfjx4bH/M2eMP/AAB03/43WqpVbbf+TMjnhf8A4CNj+19H/wCg/o//AIc+8/8AiaP7X0f/
+        AKD+j/8Ahz7z/wCJrI/4Xx4c/wChs8Yf+AOm/wDxuj/hfHhz/obPGH/gDpv/AMbp+yq9v/JmL2lPv+CP
+        /9k=
+</value>
+  </data>
+  <data name="PictureBoxPersonnaliserFondEcran.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwg
+        JC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIy
+        MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACdAMADASIAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD26iiiuk8UKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+        igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+        igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+        igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+        igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+        igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+        igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+        igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+        igAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==
+</value>
+  </data>
+  <data name="Texte_Aide.Text" xml:space="preserve">
+    <value>
+    --------------------------------------------------------------
+
+   Ce logiciel a été conçu afin de simplifier vos recherches sur des
+   documents  personnel ou professionnel : 
+
+    - Schémas électriques
+    - Schémas synoptiques
+    - Notices + photos
+    - Fiches Produits
+
+
+   Vous disposez, à cet effet, de sept onglets :
+
+
+   1/ Gestion de Base
+    
+    Utilisé pour la gestion de la base de données du moteur de recherche,
+    géré uniquement par un gestionnaire ou un administrateur.
+
+     Comptes par défaut :
+
+     Nom d'utilisateur : Administrateur
+     Mot de passe : PA2X2LA
+
+     Nom d'utilisateur : Gestionnaire
+     Mot de passe : 485156
+ 
+     Ces comptes sont liés uniquement à la gestion du logiciel
+     pas aux comptes utilisateurs des serveurs Mysql
+
+
+   2/ Recherche simplifiée
+
+     Vous pouvez  faire des recherches à partir d'un numéro d'enregistrement ou
+     de document connu, vous pouvez  également faire une recherche
+     à partir des éléments  constitutifs  du document (référence(s)).
+     Il est également possible de faire une recherche à partir du 
+     commentaire du document
+
+
+   3/ Recherche Avancée
+
+    Vous pouvez faire des recherches  pointues à partir de dix paramètres :
+
+    -  type de document : schéma électrique, schéma synoptique,
+       notice ou fiche produit
+    -  document de base pouvant être qualifié de schéma type ou standard
+    -  Technologie du système
+    -  Le schéma est constitué de platines Audio, Vidéo ou Mixte
+    -  contrôle d'accès (clavier codé, lecteur VIGIK...)
+    -  verrouillage des portes (ventouses, Gâche 2T...)
+    -  une référence contenue dans le document
+    -  Série de platine de rue
+    -  Nombre de platine(s) principale(s)
+    -  Nombre de platine(s) secondaire(s)
+
+   4/ Recherche Guidée
+      
+       Recherche guidée par arbre
+
+   5/ Statistiques
+      
+     Permet de connaitre la composition de la base de données
+     - Par type de documents (électriques, synoptiques, notices, fiches produits)
+     - Par code schéma
+
+     * Enregistrement d'un rapport
+     * Visualisation d'un rapport sauvegardé
+     * Suppression d'un rapport sauvegardé
+     * Impression d'un rapport
+
+   6/Personnaliser
+
+     Permet de modifier la couleur des textes des menus ainsi que
+     l'image de fond des écrans; gestion des utilisateurs de
+     Gestion Base
+
+   7/ Aide
+    
+    Onglet actuel
+    - Informations sur la connexion en cours
+    - Diagnostic de  la connexion en cours
+    - Etat du serveur
+    - Rafraichissement de l'état du serveur
+
+
+   Ce logiciel nécessite, pour fonctionner correctement :
+
+
+    - Internet Explorer 11 ou supérieur (nécessaire pour .NET framework)
+
+    - .NET framework 4.5
+
+    - .NET framework  French Language
+
+    - MySQL Connector Net 6.9.4 ou supérieur
+   
+    - MariaDB 10.0.15
+
+    - SAPI 5.4 logiciel Microsoft de synthèse vocale
+
+    - VLC  2.1.3 ActiveX Plugin
+
+    - ffplay   (ffmpeg-20141130-git-6a2bfd5-win32-static)
+
+
+     Configuration minimale
+ 
+     RAM   Minimum: 512 Mo ou supérieur
+     Processeur  processeur Pentium 1 GHz ou équivalent (Recommandé)
+
+    Système d'exploitation
+
+     - Windows 8
+
+    Affichage
+
+     800 x 600, 256 couleurs (Minimum)
+     1024 x 768 couleurs, 32 bits (Recommandé)
+
+
+       Merci aux différents Traducteurs/Correcteurs :
+        M Cacchia Lionel - Italien (22/02/2009)
+        Mlle Ponsard Frédérique - Allemand (06/04/2009)
+
+       Merci au graphiste
+        M VIEIL Laurent - Logo et icone  IDEALTAKE - Décembre 2011
+
+
+      Historique du logiciel
+       
+       -IDEALTAKE  1.5.500.3722 (23/03/2013)
+       Développement sur Visual Studio Express2012 pour Windows Desktop
+
+       -IDEALTAKE  1.5.500.3723 (13/04/2013)
+       Modification du Webbrowser de Gestion base (ancrage)
+
+       -IDEALTAKE  1.5.500.3724 (15/04/2013)
+       En cas d'erreur pendant une requête
+       Ajout de l'appel de la fonction log_idealtake() dans
+       BackgroundWorker_RS_DoWork
+       BackgroundWorker_RA_DoWork
+       BackgroundWorker_RG_DoWork
+
+       -IDEALTAKE  1.5.501.3725 (16/04/2013)
+       Correctif Bug dans la recherche par mot(s) clef(s) exemple de chaîne 
+       Autocomplete  = [tar " ],  Recherche simplifiée = [new "] retourne des erreurs
+       On protége 2 caractères pour les requêtes MySQL guillemet et apostrophe
+       Dans les fonctions Requêtes_SQL_Recherche_simplifiée() et
+       RsMotsClefsAutocompleteFonction()
+
+       -IDEALTAKE  1.5.502.3726 (17/04/2013)
+       Correctif Bug identique au 16/04 dans la recherche simplifiée par  le numéro
+       d'enregistrement pour l'autocomplete
+       Recherche_commande() AUTO_COMPLETE_Text_Box(RS_NOM_ENREGISTREMENT)
+
+       -IDEALTAKE  1.5.503.3770 (28/04/2013)
+       Correctif d'un Bug dans la sauvegarde et la restauration d'une base en XML
+       Table  'documents'  Colonne  'code_specific_HTML_display'
+       Utilisation de  .Parameters.AddWithValue dans  les objets MySqlCommand !!
+       http://stackoverflow.com/questions/6760237/how-in-vb-net-we-can-encode-string-for-sql
+
+        * Sauvegarde en cas d'erreur on récupère le nom de la table
+        Ainsi que la ligne de l'enregistrement dans le log
+        * Restauration en cas d'erreur on récupère le nom de la table ayant un
+        Problème dans le log
+
+       -IDEALTAKE  1.5.504.3780 (28/04/2013)
+        * Demande à l'utilisateur la confirmation de la restauration
+        * Message vocal la restauration commence
+        * Indications visuelles de l'état de la restauration
+        * Message vocal de fin la restauration est terminée
+
+       -IDEALTAKE  1.5.505.3785 (28/04/2013)
+        *Message vocal supplémentaire pour la restauration
+
+       -IDEALTAKE  1.5.506.3786 (02/05/2013)
+        * Message vocal avant la sauvegarde
+        * Demande à l'utilisateur la confirmation de la sauvegarde
+        * Message vocal de fin  'la sauvegarde est réussie'
+
+       -IDEALTAKE  1.5.507.3787 (04/05/2013)
+       Modification de l'aspect du formulaire de démarrage
+
+       -IDEALTAKE  1.5.508.3788 (04/05/2013)
+       Modification du fichier de la liste des connexions
+
+       -IDEALTAKE  1.5.509.3800 (07/05/2013)
+       Modification de fonctionnement Affichage du Commentaire d'un enregistrement
+       Dans RA, RS, RG On transforme le motif $0A dans la chaîne en "&lt;br&gt;"
+       Bug dans Recherche Avancée 
+       expression_TA = "INDICE_AUTO = " &amp; ComboBox_TABLE_A.SelectedValue
+       Filter malformé la valeur n'est pas entourée par '
+       Ne retourne pas de valeur  après  foundRows_TA = DataTable_TABLE_A.select(expression_TA...
+       Pour des valeurs &gt; 9 (Idem TABLE_B,TABLE_C,TABLE_D,TABLE_E)
+
+       -IDEALTAKE  1.5.509.3801 (19/06/2013)
+       TransfertIdealtake passe en version  1.0.21.152
+       Lors du passage à la version 2.0.7 du logiciel VLC
+       Dans un résultat de recherche contenant des vidéos gérées par l'ActiveX VLC
+       De type .flv, .webm, .3gp  le code Javascript ne s'éxecute plus normalement
+       Pour les boutons :   Play, Pause, Stop, FullScreen
+       Le code JavaScript des boutons fonctionne pour les versions
+       2.0.4, 2.0.5  de VLC
+       Modification du code spécifique HTML pour l'ActiveX VLC
+       Ajout de paramètre
+       &lt;param name=""Src"" value=""[URL][NOM_FICHIER]"" /&gt;
+       Permet la lecture par le bouton play de l'activeX
+       Sans passer par le code JavaScript des boutons Play, Pause, Stop, FullScreen
+
+       -IDEALTAKE  1.5.510.3802 (21/06/2013)
+       Modification de la fonction TestInstallationVLC()
+       En cas d'echec de lecture du registre Accés Refusé à la clef
+       HKEY_LOCAL_MACHINE\SOFTWARE\VideoLAN\VLC
+       On détecte la présence du fichier axvlc.dll dans les répertoires
+       d'installation par défaut de VLC en 32 et 64 bits
+
+       -IDEALTAKE  1.5.510.3803 (24/06/2013)
+       DYNDNS ne permet plus le fonctionnement de tvieil.dnsalias.com 
+       Changement du nom du serveur en idealtake.dyndns-ip.com
+
+       -IDEALTAKE  1.5.511.3830 (20/07/2013)
+         Ajout de fonctionnalité ajout d'un Image Viewer  
+         Shutter Reloaded 2.5 Contributors: Andrew Ozz
+         Plugin initialement prévu pour le projet wordpress
+         TransfertIdealtake.exe passe en version 1.0.22.153 (correction bug fichier local)
+         Nouvelle solution Innosetup
+
+       -IDEALTAKE  1.5.512.3831 (22/08/2013)
+       Correction d'un bug lors de la restauration d'une base de données
+       e.g :la chaine "shutter-reloaded\" dans la table 'elements_html' devient "shutter-reloaded"
+       Correction spécifique adoptée. La table 'documents' a un problème identique. Le champ 
+       Image_Preview contient par exemple "c:\a\1\6083.gif" dans le fichier de sauvegarde  .xml
+       Une fois restauré devient "c:a16083.gif"
+
+       -IDEALTAKE  1.5.513.3832 (23/08/2013)
+       Correction Bug mauvaise gestion des chemins des fichiers xml lors de la restauration 
+       D'une base de données
+
+       -IDEALTAKE  1.5.513.3833 (28/12/2013)
+       TransfertIdealtake.exe passe en version 1.0.22.154
+       Ajout des Fichiers .MKV
+
+       -IDEALTAKE  1.5.513.3834 (05/01/2014)
+       TransfertIdealtake passe en version 1.0.23.156
+       Lorsque le mode de maintenance est activé, 
+       Une Erreur sur le remplissage du combobox 'ComboBoxTypeDocumentMaintenance' se produit
+       Lorsqu'il n'y a pas de nom d'utilisateur ou de mot de passe associé au type de document
+       Le module Crypto1 retourne une erreur
+       L'absence de valeur correspond à la chaine   5LmS6L6u77+93qnvt5/ls7Xfou2ekg==
+       Dans la Table transfert de la base MySql
+       Si cette chaine est Détectée, alors on empéche le décodage
+       La liste des types des documents est dupliquée, suite au fonctionnement
+       de TimerChargementTypeDocument_Tick()
+       On effectue un 'clear' avant le chargement de ComboBoxTypeDocument et
+       ComboBoxTypeDocumentMaintenance si on se trouve en mode de Maintenance
+
+       -IDEALTAKE  1.5.514.3840 (08/02/2014)
+       Ajout du logiciel  lightbox2 qui est un visualisateur d'image.
+       Il sera actif pour des images de format .BMP et .TIF
+
+       Pour pouvoir le rendre Actif :
+          1/ Onglet Gestion Base, bouton Parametres, onglet Collections Menus, sélectionner la Table Documents, Cliquer sur lecture
+          2/ Sélectionner la ligne de l'image à rendre actif avec lightbox2, aller dans la colonne Preview image remplacer l'URL par ---,
+              Puis dans la colonne code_specific_HTML_display  taper  &lt;a href="[URL][NOM_FICHIER]"   data-lightbox ="[CHRONO]"&gt;[NOM_FICHIER]&lt;/a&gt;
+              Cliquer sur le bouton Mise à jour
+
+       Le résultat d'une recherche donnera ce document sous la forme d'un lien avec le nom du fichier,
+       Lorsque vous cliquerez sur ce lien il y aura utilisation du visualisateur d'image lightbox2.
+
+       -IDEALTAKE  1.5.514.3841 (09/02/2014)
+        TransfertIdealtake.exe passe en version 1.0.24.158
+        Ajout de la gestion des images .bmp et .tif
+        Pour l'utilisation de lightbox 2
+
+       -IDEALTAKE  1.5.514.3842 (09/02/2014)
+       Ajout de données par défaut dans la table 'elements_html' lors de la création
+       D'une nouvelle base permettant l'utilisation normale de lightbox 2
+
+       -IDEALTAKE  1.5.515.3843 (12/02/2014)   
+       Correctif de recherche guidée
+       Les recherches ne donnent pas des résultats cohérents.
+       Par exemple le motif de l'arbre 0-28-1-1 est en résultat d'une recherche 0-2.
+       On doit avoir uniquement des résultats pour la branche de l'arbre en cours.
+        e.g :  0-2 (Strictement) ou 0-2- (si il y a des sous branches) mais pas 0-28 ou 0-28-
+       Exemple de requête SQL correcte
+       SELECT chrono FROM ALBUM_PHOTOS.enregistrements WHERE Recherche_par_Arbre LIKE '0-%'
+       AND Recherche_par_Arbre NOT LIKE '0[0-9]' OR  Recherche_par_Arbre =  '0';
+
+       -IDEALTAKE  1.5.515.3846 (23/03/2014)   
+       Correction bug lors de la création du fichier de sauvegarde "elements_html.xml"
+       e.g : " ...lightbox\js\lightbox..."  corrigé devient " ...lightbox\\js\\lightbox..."
+       Remplacement de Mysql.Data.dll passe de 6.5.4 -&gt; 6.8.3
+       Modification des spécifications actuelles des dépendances
+       N.B : Idealtake fonctionne aussi avec MariaDB
+
+       -IDEALTAKE  1.5.516.3850 (30/03/2014)  
+        Depuis la dernière mise à jour le développement se fait sur Microsoft Visual Studio Express 2013 pour Windows Desktop
+        Les sous projets Diagnostic_connexion.exe   et TransfertIdealtake.exe ont été recompilé en .NET 4.5
+        avec Mysql.Data.dll 6.8.3.0, ces executables ne fonctionnaient plus ayant oublié de les recompiler
+        Modification de structure de la table 'enregistrements' la taille des champs :
+        Texte_reserve1_francais, Allemand, Anglais, Espagnole, Italien passent de 1024 à 128
+        Commentaire_texte_francais, Allemand, Anglais, Espagnole, Italien passent de 1024 à 2048
+
+       -IDEALTAKE  1.5.516.3851 (02/08/2014)  
+        TransfertIdealtake passe en version 1.0.25.160
+        Remplacement des fonctions de cryptage et de décryptage
+        Qui rencontrées de nombreux problèmes.
+        Ces deux fonctions sont utilisées pour crypter le nom d'utilisateur
+        Ainsi qui le mot de passe en mode de Transfert FTP.
+
+       -IDEALTAKE  1.5.517.3855 (16/11/2014)  
+       Ajout de fonctionnalitée Gestion Base / Paramètres / Paramètres Serveur
+      Case à cocher activation IP adresse locale, elle se subtitue à l'ensemble des
+      des URL ou IP de toute les connexions. Je n'ai plus d'internet depuis une semaine,
+      suite à un problème sur ma ligne. Le serveur est locale chez moi et je ne peux même
+       plus accéder au serveur MariaDB par l'intermédiaire d'Idealtake. Je pense que ce n'est pas
+      acceptable, d'ou cette modification. Elle permet  uniquement  de faire la gestion des informations
+      des enregistrements, mais pas des documents liés aux enregistrements (c'est déjà ça)
+
+       -IDEALTAKE  1.5.520.3880 (30/11/2014)  
+        1/ mise à jour de MySQL Connector Net en 6.9.4  
+        2/ Intégration de MariaDB 10.0.15 dans la solution de déploiement
+          avec 2 bases de données de test
+        3/ mise à jour de ffplay  en ffmpeg-20141130-git-6a2bfd5-win32-static
+        4/ Ajout de la fonction Création_et_démarrage_service_MariaDB()
+          au démarrage arrête, supprime, créé et démarre le service Windows MySQL
+
+       -IDEALTAKE  1.5.520.3881 (30/11/2014) 
+       Les processus de la fonction Création_et_démarrage_service_MariaDB() 
+       ne sont pas executé en tant qu'administrateur.
+       en ajoutant .verb="runas" on demande à l'utilisateur l'élévation du niveau d'accès
+
+       -IDEALTAKE  1.5.520.3882 (02/12/2014) 
+       TransfertIdealtake passe en version 1.0.26.161
+       Pour les fichiers multimédia utilisant la balise &lt;audio&gt;
+       ou &lt;video&gt; du HTML 5 on modifie le paramètre
+       preload="auto" en preload="metadata"
+       afin d'éviter des chargements interminables (52 secondes avec IE 10 / vidéo)
+       Empéchant toute lecture des documents.
+       Les données de la table documents de  Multimédia ont été modifié.
+       Le temps de réaction du serveur web semble trop lent, ce qui entraine
+       le message source non valide dans la zone d'une vidéo, si il y a
+       beaucoup de résultats à une recherche.
+       Si on tente une recherche sélective de cet enregistrement
+       la source est disponible.
+
+       -IDEALTAKE  1.5.521.3883 (07/12/2014) 
+       TransfertIdealtake passe en version 1.0.27.162
+       Un fichier extérieur permet de personnaliser le 
+       code spécifique HTML pour le format MP4 d'un
+       document lié à un enregistrement. Ce fichier se nomme
+       code_specific_HTML.txt et se situe dans le répertoire d'installation
+       d'Idealtake. Un nouveau code spécifique pour le MP4 a été construit.
+       Il permet de mieux comprendre le non chargement des vidéos.
+       J'ai réalisé quelques tests qui me permettent de dire que le format MP4
+       reconnu avec certitude contient une vidéo H264 - MPEG- 4 AVC 640 x 360
+       Planar 4:2:0 YUV, Audio MPEG AAC (mp4a) stéréo 44100 Hz
+       Test ok en local avec un format 852 x 480. Il existe des cas ou la lecture ne sera pas possible,
+       Car le poid du flux vidéo est trop lourd exemple &gt; 30 résultats affichés avec un document
+       dont la résolution est de 1440 x 1080. Si ce document est recherché de façon spécifique
+       un seul résultat le fichier pourra être lu. La base de donnée a été mise à jour.
+
+       -IDEALTAKE  1.5.522.3884 (10/12/2014) 
+       RS et RA ne fonctionnent plus modification du numéro de version.
+       (suite à l'utilisation d'une fonction Test_RS(sender,e) qui a fait planter le code même la sauvegarde)
+
+       -IDEALTAKE  1.5.523.3900 (12/12/2014) 
+       Les images et vidéos d'un enregistrement multimédia sont préchargées à la fin d'une recherche.
+       Si le serveur web hébergeant les documents n'est pas accessible, il y a un très gros temps de latence entre deux recherches.
+       J'ai donc ajouté un système détectant plus de trentes secondes d’inactivitées. Cette détection  entraine l'arrêt de la recherche des documents.
+
+       -IDEALTAKE  1.5.524.3920 (13/12/2014) 
+       Préparation de l'ajout d'un [INDEX_NAVIGATION_RESULTATS] sur les pages de résultats
+
+       -IDEALTAKE  1.5.525.3950 (13/12/2014)
+       Les trois onglets de recherche disposent d'index de navigations.
+       Une page de résultat contient au maximum dix  enregistrements.
+       On peut naviguer de page en page en cliquant sur un indice en haut ou en bas
+       des pages. Les bases de démonstrations ont été modifié. Les  améliorations
+       ont été ajouté à la base modéle.
+
+       -IDEALTAKE  1.5.526.3956 (14/12/2014)
+      J'ai fait en sorte qu'il puisse y avoir un peu plus d'informations sur l'état de la
+      recherche  en cas de latence du serveur web. Les prévisualisations des fichiers
+      vidéos ou d'images ne peuvent se faire car le serveur web est down.
+      Le résultat de recherche va se bloquer en attente des données des images et
+      des vidéos. L'utilisateur doit comprendre que la recherche n'est pas finie.
+      Le serveur MariaDB est locale sur notre PC de ce fait la phase de récupération
+      textuelle se réalisera toujours correctement. La tâche de fond de récupération
+      des données images et vidéos est en cours de façon silencieuse. Cette tâche
+      n'est pas signalée à l'utilisateur. Si l'utilisateur relance une recherche à ce moment là,
+      il verra un message de "recherche en cours...".
+      Le serveur web refonctionne, on récupère les données de prévisualisations.
+      Si le serveur n'est pas retrouvé au bout de 2 à 5 minutes un message indiquera que
+      la recherche des données des liens est interrompue.
+      La page de résultat contiendra des données textes, parfois des prévisualisations
+      d'images, et ou des images indiquant un problème de chargement ou encore pas
+      de documents images ou vidéos en prévisualisations.
+
+       -IDEALTAKE  1.5.526.3957 (15/12/2014)
+       Modification des fonctions ConstructionPageHtmlRs(), ConstructionPageHtmlRa
+       ConstructionPageHtmlRg() Nom du paramètre NombreDeRésultats
+
+       -IDEALTAKE  1.5.526.3958 (15/12/2014)
+       La taille des champs commentaire de la table 'enregistrements' passe à 4096 octets
+
+       -IDEALTAKE  1.5.526.3959 (21/12/2014)
+       Les fichiers images des deux bases de démonstrations sont transférés sur idealtake.free.fr.
+       Les fichiers vidéos restent sur le serveur idealtake.dyndns-ip.com à cause de leur tailles.
+       Les bases de données sont mises à jour. L'utilisateur aura une meilleur expérience d'Idealtake.
+
+       -IDEALTAKE  1.5.526.3960 (22/12/2014)
+       Des modifications de la table 'documents' ont été oublié
+
+       -IDEALTAKE  1.5.526.3961 (28/12/2014)
+       Correctif sur le nombre de résultats donnés  par la synthèse vocale
+
+
+       NOTA PROBLEME DE RETRACAGE VIDEO :
+       En cas de problème de retraçage vidéo
+       (Écran non rafraichit dans les grandes résolutions)
+       Désactiver l'accélération matérielle dans propriété de l'écran
+       dépannage Accélération matérielle Aucune</value>
+  </data>
+  <metadata name="ImageList_TabControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="ImageList_TabControl1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAe
+        GwAAAk1TRnQBSQFMAgEBCAEAAXgBCwF4AQsBLwEAASIBAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABvAMAAWYDAAEBAQABCAUAAegBShgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
+        AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
+        AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz
+        AwABZgMAAZkDAAHMAgABMwMAAjMCAAEzAWYCAAEzAZkCAAEzAcwCAAEzAf8CAAFmAwABZgEzAgACZgIA
+        AWYBmQIAAWYBzAIAAWYB/wIAAZkDAAGZATMCAAGZAWYCAAKZAgABmQHMAgABmQH/AgABzAMAAcwBMwIA
+        AcwBZgIAAcwBmQIAAswCAAHMAf8CAAH/AWYCAAH/AZkCAAH/AcwBAAEzAf8CAAH/AQABMwEAATMBAAFm
+        AQABMwEAAZkBAAEzAQABzAEAATMBAAH/AQAB/wEzAgADMwEAAjMBZgEAAjMBmQEAAjMBzAEAAjMB/wEA
+        ATMBZgIAATMBZgEzAQABMwJmAQABMwFmAZkBAAEzAWYBzAEAATMBZgH/AQABMwGZAgABMwGZATMBAAEz
+        AZkBZgEAATMCmQEAATMBmQHMAQABMwGZAf8BAAEzAcwCAAEzAcwBMwEAATMBzAFmAQABMwHMAZkBAAEz
+        AswBAAEzAcwB/wEAATMB/wEzAQABMwH/AWYBAAEzAf8BmQEAATMB/wHMAQABMwL/AQABZgMAAWYBAAEz
+        AQABZgEAAWYBAAFmAQABmQEAAWYBAAHMAQABZgEAAf8BAAFmATMCAAFmAjMBAAFmATMBZgEAAWYBMwGZ
+        AQABZgEzAcwBAAFmATMB/wEAAmYCAAJmATMBAANmAQACZgGZAQACZgHMAQABZgGZAgABZgGZATMBAAFm
+        AZkBZgEAAWYCmQEAAWYBmQHMAQABZgGZAf8BAAFmAcwCAAFmAcwBMwEAAWYBzAGZAQABZgLMAQABZgHM
+        Af8BAAFmAf8CAAFmAf8BMwEAAWYB/wGZAQABZgH/AcwBAAHMAQAB/wEAAf8BAAHMAQACmQIAAZkBMwGZ
+        AQABmQEAAZkBAAGZAQABzAEAAZkDAAGZAjMBAAGZAQABZgEAAZkBMwHMAQABmQEAAf8BAAGZAWYCAAGZ
+        AWYBMwEAAZkBMwFmAQABmQFmAZkBAAGZAWYBzAEAAZkBMwH/AQACmQEzAQACmQFmAQADmQEAApkBzAEA
+        ApkB/wEAAZkBzAIAAZkBzAEzAQABZgHMAWYBAAGZAcwBmQEAAZkCzAEAAZkBzAH/AQABmQH/AgABmQH/
+        ATMBAAGZAcwBZgEAAZkB/wGZAQABmQH/AcwBAAGZAv8BAAHMAwABmQEAATMBAAHMAQABZgEAAcwBAAGZ
+        AQABzAEAAcwBAAGZATMCAAHMAjMBAAHMATMBZgEAAcwBMwGZAQABzAEzAcwBAAHMATMB/wEAAcwBZgIA
+        AcwBZgEzAQABmQJmAQABzAFmAZkBAAHMAWYBzAEAAZkBZgH/AQABzAGZAgABzAGZATMBAAHMAZkBZgEA
+        AcwCmQEAAcwBmQHMAQABzAGZAf8BAALMAgACzAEzAQACzAFmAQACzAGZAQADzAEAAswB/wEAAcwB/wIA
+        AcwB/wEzAQABmQH/AWYBAAHMAf8BmQEAAcwB/wHMAQABzAL/AQABzAEAATMBAAH/AQABZgEAAf8BAAGZ
+        AQABzAEzAgAB/wIzAQAB/wEzAWYBAAH/ATMBmQEAAf8BMwHMAQAB/wEzAf8BAAH/AWYCAAH/AWYBMwEA
+        AcwCZgEAAf8BZgGZAQAB/wFmAcwBAAHMAWYB/wEAAf8BmQIAAf8BmQEzAQAB/wGZAWYBAAH/ApkBAAH/
+        AZkBzAEAAf8BmQH/AQAB/wHMAgAB/wHMATMBAAH/AcwBZgEAAf8BzAGZAQAB/wLMAQAB/wHMAf8BAAL/
+        ATMBAAHMAf8BZgEAAv8BmQEAAv8BzAEAAmYB/wEAAWYB/wFmAQABZgL/AQAB/wJmAQAB/wFmAf8BAAL/
+        AWYBAAEhAQABpQEAA18BAAN3AQADhgEAA5YBAAPLAQADsgEAA9cBAAPdAQAD4wEAA+oBAAPxAQAD+AEA
+        AfAB+wH/AQABpAKgAQADgAMAAf8CAAH/AwAC/wEAAf8DAAH/AQAB/wEAAv8CAAP//wD/AP8A/wD/AP8A
+        /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wDhAAHyCG0B8q8AAZIC7AHqAQsHPwFu
+        AuwB7SoABTd6AAHyAe8BkgEOAz4BPwdGAT8CPgFEAfcB7wHyJwABNwNGATdNAAHzAfEKCAHyAfQeAAHy
+        AesBDgI+D0YBDgEAAesB8iYAATcDRgE3TAAB9AEIAZgJdwGXAZgBwgH0HAAB8gHqAQsBPhBGAT8BAAEP
+        AQ4B6gHyFAAIVQkAATcDRgE3SQAC9AHyAQgBmAGXCVUBdwGdAZgBwgHzAfQZAAHyAREBDgE/EEYBRQEA
+        AQ4B6gETAQ4BEAHyEwABVQY3AVUJAAE3A0YBN0gAAfQB8QEIAZgBnQGXAXcCVQJWAVcCVgNVAXcBlwGd
+        AZgBCAHyAfQWAAHxAgAB6RFGAUUBFQHrAuwB6gIOAfESAAFVBjcBVQkAATcDRgE3RwAB9AHxAZgBlwZV
+        AVYBNgE3AjYBVgZVAZ0BCAHyFQABBwEOAQASRgE/AREH7AFDAQcRAAFVBjcBVQkAATcDRgE3IwADRh4A
+        AfQB8wHxAQgBmAGdAXcDVQNWAjYCNwI2A1YDVQGXAZgCCAHyAfQRAAHvAREBCxJGAT4BFQFtB+wBEAEH
+        EQABVQY3AVUwAAVGHQAB8gEIAZgBlwJ3A1UBVgFXAjYFNwM2AlYDVQJ3AZcBmAEIAfMQAAHsAQsTRgEe
+        ARUI7AEQARQBBw8AAQkBVQY3AVUWCRoABUYbAAH0AfIBCAGYAXcFVQFWAVcBNgo3ATYCVgVVAZcBmAEI
+        AfMB9A4AAewBCwI+EEYBPgFEAW0I7AHqARAB7A8AAQkBVQY3AVUWCRoABUYZAAHzAcIBCAGYAZ0BlwF3
+        AlUCVgFXAzYKNwM2A1YCVQF3AZcBnQGYAQgB8QH0CwABvAETARACSQFEAT4BRQxGAT4BFQFtCuwBFQHs
+        EAABVQY3AVUsAA1GFAAB9AEIAZgBdwVVAlYBNhI3ATYBVgZVAZcBmAHxAfQKAAEUARABcgGYAZcCSQFE
+        Az8JRgEAAW0L7AESAesB8Q8AAVUGNwFVCQABNwNGATcdAA9GEwAB9AEIAZgBdwNVA1YCNhI3AjYCVgRV
+        AXcBmAHCAfQKAAEUAXIFmAFPAxADRQVGAUUBEAFtDOwBEgEUDwABVQY3AVUJAAE3A0YBNx0AD0YTAAH0
+        AQgBmAF3AlUBVgQ2FDcDNgFXAVYCVQF3AZgBwgH0CgABFAFyCZgBFQEOAQ8BIgNGAT4BEA7sARIBFA8A
+        AVUGNwFVCQABNwNGATcdAA9GEwAB9AEIAZgBdwFVAlYGNhA3BjYCVgFVAXcBmAHCAfQKAAEUAXIMmAGX
+        AwABQw/sARIBFA8ACFUJAAE3A0YBNx4ADUYUAAH0AQgBmAF3AlUHVgFXAjYKNwI2AVcGVgNVAXcBmAHC
+        AfQKAAEUAXIMmAKXARACAAIOAW0M7AESARQZAAdVATcDRgE3AlUgAAVGGAAB9AEIAZgBdwlVAlYBNgo3
+        ATYCVglVAXcBmAHCAfQKAAEUAXIOmAEQAeoDtAFDAQ8BEwrsARIBFBkAB1UBNwNGATcCVSAABUYYAAH0
+        AfIBCAGYBZ0BlwJ3AlUBVgE2CjcBNgFWAlUBdwKXBZ0BmAEIAfMLAAEUAXIMmAGXAUkB6wG1AwkCkQHq
+        AREBQwHrBuwBEgEPARQZAAdVATcDRgE3AlUgAAVGGQAC9AXyAcIBCAGYAXcCVQFWATYKNwE2AVYCVQGX
+        AZgBCAHxBPIB8wH0DAABvAHrAXIKmAGXAUkBbQG7BgkBtQGuAW0BFAEVAeoE7AEVARMBvAsADTcBAAU3
+        AlUBNwNGATcCVSEAA0YiAAHyAQgBlwJVAVYBNgo3ATYBVgJVAZ0BCAHzFAAB7AFJCZgBcgHqAW0LCQFt
+        AhIBEwESAuwBFQHsDAABNwxSAQAEUgE3AlUBNwNGATcCVUYAAfIBCAGXAlUBVgE2CjcBNgFWAlUBnQEI
+        AfMUAAEHAXIBlwiYAUkBEw4JAZEBFQEUARIB6gERAewMAAE3DFIBAARSATcCVQE3A0YBNwJVRgAB8gEI
+        AZcCVQFWATYKNwE2AVYCVQGdAQgB8xUAAQcBEQeYAZcBSQFsEAkBuwFDAQ4BEQHvDAABNwxSAQAEUgE3
+        AlUBNwNGATcCVUYAAfIBCAGXAlUBVgE2CjcBNgFWAlUBnQEIAfMVAAEHARUClwOYApcBQwGuEwkBFAEH
+        DQABNwxSAQAEUgE3AlUBNwNGATcCVUYAAfIBCAGXAlUBVgE2CjcBNgFWAlUBnQEIAfMWAAHxAQ4BlwOY
+        AZcBDgGREQkBkQIOAfEOAAE3DFIBAARSATcCVQE3A0YBNwJVRgAB8gEIAZcCVQFWATYKNwE2AVYCVQGd
+        AQgB8xcAAfMBFAFyAZgBcgERAbUSCQGRARAB8g8AATcMUgEABFIBNwJVATcDRgE3AlVGAAHyAQgBlwJV
+        AVYBNgo3ATYBVgJVAZ0BCAHzGAAB8gHrAUMBbAG0EQkBbQEVAewB8hAAATcMUgEABFIBNwJVATcDRgE3
+        AlVGAAHyAQgBlwJVAVYBNgo3ATYBVgJVAZ0BCAHzGQAB8gHrAQ8BbRAJAW0BDwHrAfIRAAE3DFIIAAE3
+        A0YBN0gAAfIBCAGXAlUBVgI2CDcBNgFXAVYCVQGdAQgB8xoAAfIB7wH3Aa4CbQGRCAkBkQJtAa4B9wHv
+        AfISAAE3EVIBNwIAATcDRgE3SAAB8gEIAZcDVQxWA1UBnQEIAfMdAAGSA+wIkQPsAZIVABM3AgABNwNG
+        ATdIAAHyAQgBlxJVAZ0BCAHzIAAB8ghtAfItAAU3SAAB8wHCAZgSnQEIAfEB9KUAAfQB8xLxAfMB9P8A
+        /wBMAAFKAq4BQwkAAq4BSgwAAQgBnQEImQABCAH2AewRAAEUAvYIAAEIAU4BTwFOsAAB7AYAAQgDVQFO
+        RwAGVQEABFUCAANVKgAGVQEABFUCAANVDwABiwkJDAABCAFOBFUETgGWQQACVQMAA1UBAAJVAgADVSoA
+        AlUDAANVAQACVQIAA1UMAAEVEQkHAAEIAU8JVQFOQAACVQQAA1UBAAJVAgADVSkAAlUEAANVAQACVQIA
+        A1UMABIJBgABCAFOClUBTkAAAlUFAAJVAQAGVSoAAlUFAAJVAQAGVQ0AEgkFAAEIDFUBTkAAAlUFAAJV
+        AQAFVSsAAlUFAAJVAQAFVQ4AEgkFAAH2AU8LVQFOQAACVQQAA1UBAAJVAgABVSsAAlUEAANVAQACVQIA
+        AVUOABIJBgABTgFPClUBTkEAAlUCAARVAQACVQIAAlUrAAJVAgAEVQEAAlUCAAJVDQASCQYAAfYBVQFP
+        CVUBTkIABVUCAANVAgADVSsABVUCAANVAgADVQwAAwkDAAJDAgkFAAMJCQABTwNVAU8ElgG7lwAECQEA
+        AgkBQwGGAQkCAAIJAgACCQkAAfYBTwJVAU4jAAZVAQAEVQIAA1VpAAQJAQACCQEAAUMBCQYAAgkKAAFO
+        AU8BVQFOCwADUhQAAlUDAANVAQACVQIAA1VqAAQJAQACCQEVAQABCQIAAgkCAAIJCgAB9gFVAU4BVSEA
+        AlUEAANVAQACVQIAA1VUAAHsAQAB7BMAAwkFAAIJAgACCQIAAgkLAAL2DAADUhMAAlUFAAJVAQAGVVUA
+        AewBAAHsEwADCQQAAwkFAAMJCgABCAFOAVUBTg0AAlISAAJVBQACVQEABVVsABIJCgABCAFOAlUBnQ0A
+        AlIRAAJVBAADVQEAAlUCAAFVQgAB7AEAA+wBAAPsAQAD7AIAA+wCAAHsAQAB7BMAEgkGAAGYA7sBmAFP
+        AlUBTgGdBwACUgMAAlISAAJVAgAEVQEAAlUCAAJVDQADUhgAA1IsAAHsEwASCQYABU8EVQFOAZ0GAAJS
+        AwACUhMABVUCAANVAgADVUAAAewBAAPsAQAD7AEAA+wCAAPsAgAD7BMAEgkGAAtVAU8BCAUABVIvAANS
+        GAADUhYAAewBAAHsJwASCQYADFUBnTsAAlIZAAJSPwAFCQgAARUECQYADFUBTgEIOwACUhkAAlI+AAEJ
+        EAABCQYADFUBnTcAAlIDAAJSCgADUgcAAlIDAAJSFAADUj8AClUBTgGYOAACUgMAAlIUAAJSAwACUkIA
+        ASIINwFDCgABTgRPBFUBTgG7OgAFUgsAA1IIAAVSFQADUigAARQPNwcABAgBuwFPAlUBTgGYTQACUiMA
+        AlIrAAk3DgABCAFOAlUBu08AAlIjAAJSIgABBwGuFAAB7AEICAABnQFPAZhLAAJSAwACUh4AAlIDAAJS
+        JAAB7BEAARQB9lgAAlIDAAJSHgACUgMAAlImAAEUAq4BQwkAAq4BSlsABVIgAAVS/wCYAAFCAU0BPgcA
+        AT4DAAEoAwABvAMAAWYDAAEBAQABAQUAAZABCRYAA///AP8A/wA0ABf/AfAC/wHgAQcT/wHwAv8CAAX/
+        AcEN/wHwAf8B+AIAAR8E/wHBCf8B8AEAAT8B/wHwAf8B8AIAAQ8E/wHBCf8B4AEAAR8B/wHwAf8B4AIA
+        AQcC/wGAAX8BwQL/AeADAAEPAv8CAAEHAf8B8AH/AcACAAEDAv8BgAF/AcEC/wHvA/8B5wH/Af4CAAEB
+        Af8B8AH/AYACAAEBAv8BgAF/AcEC/wHvA/8B6wH/AfwCAAEBAf8B8AH/BAAC/wGAAX8BwQL/Ae8B/wHH
+        Af8B6wH/AeADAAE/AfAB/gQAAf8B/gQAAf8B7wH/AYMB/wHtAf8B4AMAAR8B8AH+BAABfwH+BAAB/wHv
+        Af8BgwH/Ae0B/wGAAwABBwHwAf4EAAF/Af4EAAH/Ae8B/wGDAf8B7QH+BAABAQHwAfwEAAF/Af4EAAH/
+        Ae8B+AEAAT8B7QH8BQAB8AH8BAABPwH/AYABfwHBAv8B7wHwAQABHwHtAfwFAAHwAfwEAAE/Af8BgAF/
+        AcEC/wHvAfABAAEfAe0B/AUAAfAB/AQAAT8B/wGAAX8BwQL/Ae8B8AEAAR8B7QH8BQAB8AH8BAABPwH/
+        AYABQAEAAT8B/wHvAfgBAAE/Ae0B/AUAAfAB/AQAAT8C/wHAAQABPwH/Ae8B/wGDAf8B7QH8BQAB8AH8
+        BAABPwL/AcABAAE/Af8B7wH/AYMB/wHtAfwEAAEBAfAB/AQAAT8C/wHAAQABPwH/Ae8B/wGDAf8B7QH+
+        BAABAwHwAfwEAAE/AfgDAAE/Af8B7wH/AccB/wHtAf8B/gIAAQEB/wHwAf4EAAF/AfgDAAE/Af8B7wP/
+        Ae0B/wH+AgABAQH/AfAB/gQAAX8B+AMAAT8B/wHvA/8B7QH/Af4CAAEBAf8B8AH/BAABfwH4AwABPwH/
+        AeADAAENAf8B/gIAAQEB/wHwAf8EAAH/AfgDAAE/Af8B+QP/AfUB/wH+AgABAQH/AfAB/wGAAgABAQH/
+        AfgDAAE/Af8B/gF/Av8B+QH/Af4CAAEBAf8B8AH/AcACAAEDAf8B+AMAAT8C/wGAAgABAQH/Af4CAAEB
+        Af8B8AH/AeACAAEHAf8B+AMAAT8H/wH+AgABAQH/AfAB/wHwAgABDwH/AfgDAAE/B/8B/gIAAQEB/wHw
+        Af8B+AIAAR8B/wH4AgABwQj/Af4CAAEBAf8B8AL/AgAC/wH4AgABwQj/Af4CAAEBAf8B8AL/AeABBwX/
+        AcEI/wH+AgABAQH/AfAT/wIAAQMB/wHwF/8B8Bf/AfAX/wHwAf8CAAH/AfEI/wHAAgAE/wHwAgABMAHw
+        AgABHwHhCP8B3wH/Af4E/wH3Av8BsAHwAgABDwHBCP8B3AEIAWIE/wH3AQIBGAGwAfACAAEPAYABDwf/
+        AdkBxAHGBP8B9gFxATEBsAHwAgABDwEAAQ8H/wHTAcQBxgT/AfQB8QExAbAB8AIAAQ4BAAEPB/8B0wHk
+        AQ4E/wH0AfkBAwGwAfACAAEMAQABDwf/AdMB5AEeBP8B9AH5AQcBsAHwAgABDAEAAQ8H/wHTAcQB3gL/
+        Ae0B3wH0AfEBNwGwAfACAAEOAQABDwf/AdkBhAHOAv8B7QHfAfYBYQEzAbAB8AIAAQ4BAAEPAv8B/AIA
+        AQ8B/wHcARgBxgL/Ae0B3wH3AQYBMQGwAfACAAEPAcABDwL/Af0C/wHvAf8B3wH/Af4E/wH3Av8BsAHw
+        AgABDwHBAv8B+QH9AcABhgEvAf8BwAIAAv8B7QHfAfACAAEwAfACAAEPAeEB/wHHAfgB/QGcAUwBbwL/
+        AXsB3wL/Ae0B3wH/Af0B/wLwAgABDwHhAv8BAAE9ATwBTAFvAf8B/gH7Ad8F/wH4Af8C8AIAAQ8B8wH/
+        AccBAAENAT4BQAHvAf8B/QH7Ae8C/wHtAd8B/wH4Af8C8AIAAQ8B4QH/AfMBAAEFAT4BQQHvAf8C+wH3
+        Av8B7QHfAf8B/QH/AvACAAEPAeAB/wH5AQABDQE8AU0B7wH/AvsB9wL/Ae0BggEjARgB/wLwAgABDgEA
+        AX8BOQEAAT0BmAFMAe8B+AH3AvsBHwH+ASADAAH/AvACAAEOAQABPwE5AfgB/QHBAYwBbwH/Ae8C+wP/
+        AYIBIwEYAf8C8AIAAQ4BAAEPAYMB+QH9Av8B7wH4Ad8B+wH9AR8C/wGPA/8C8AIAAQ4BAAEPAv8B/AIA
+        AQ8B/gF/Av8BzwL/Ad8D/wLwAgABDgEAAQcH/wE/Av8B5wb/AvACAAEOAQABDwb/AecBPwHxAfwB5wL/
+        AY8D/wLwAgABDgEAAR8G/wHnAT8B/wH8AecG/wLwAgABDgEAAT8G/wHwAX8B8QH+AQ8C/wGPA/8C8AIA
+        AQ4BAAF/CP8B/AT/AecD/wLwAgABDwHgCf8B/gF/A/8B8wP/AvACAAEPAfEJ/wHOAX8C/wH+AXMD/wHw
+        AfwCAAE/Cv8BzgF/Av8B/gFzA/8B8AH/AgAL/wHgBP8BBwP/AfAX/wHwF/8B8As=
+</value>
+  </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>193, 17</value>
+  </metadata>
+  <metadata name="PrintDocument1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>292, 17</value>
+  </metadata>
+  <metadata name="PageSetupDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>432, 17</value>
+  </metadata>
+  <metadata name="Timer_Verification_excution_SAPI5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>584, 17</value>
+  </metadata>
+  <metadata name="BackgroundWorkerAjoutEnregistrement.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>821, 17</value>
+  </metadata>
+  <metadata name="BackgroundWorkerDetailsEnregistrementW3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="BackgroundWorkerRechercheGestionBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>312, 56</value>
+  </metadata>
+  <metadata name="TimerEtatAjoutCompteGestionBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>592, 56</value>
+  </metadata>
+  <metadata name="ErrorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>835, 56</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>229</value>
+  </metadata>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAAAAACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP//////////////
+        //////////////////////8AAP8AAP////////////////////////////////////////////////8A
+        AP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP////////////////////////////////////8AAP8AAP//
+        //////////////////////////////////////////////////////////////////////////8AAP8A
+        AP////////////////////////////////////8AAP8AAP//////////////////////////////////
+        //////////////////////////////////////////8AAP8AAP//////////////////////////////
+        //////8AAP8AAP//////////////////////////////////////////////////////////////////
+        //////////8AAP8AAP////////////////////////////////////8AAP8AAP//////////////////
+        //////////////////////////////////////////////////////////8AAP8AAP//////////////
+        //////////////////////8AAP8AAP//////////////////////////////////////////////////
+        //////////////////////////8AAP8AAP////////////////////////////////////8AAP8AAP//
+        //////////////////////////////////////////////////////////////////////////8AAP8A
+        AP////////////////////////////////////8AAP8AAP//////////////////////////////////
+        //////////////////////////////////////////8AAP8AAP//////////////////////////////
+        //////8AAP8AAP//////////////////////////////////////////////////////////////////
+        //////////8AAP8AAP////////////////////////////////////8AAP8AAP//////////////////
+        //////////////////////////////////////////////////////////8AAP8AAP//////////////
+        //////////////////////8AAP8AAP//////////////////////////////////////////////////
+        //////////////////////////8AAP8AAP////////////////////////////////////8AAP8AAP//
+        //////////////////////////////////////////////////////////////////////////8AAP8A
+        AP////////////////////////////////////8AAP8AAP//////////////////////////////////
+        //////////////////////////////////////////8AAP8AAP//////////////////////////////
+        //////8AAP8AAP//////////////////////////////////////////////////////////////////
+        //////////8AAP8AAP////////////////////////////////////8AAP8AAP//////////////////
+        //////////////////////////////////////////////////////////8AAP8AAP//////////////
+        //////////////////////8AAP8AAP//////////////////////////////////////////////////
+        //////////////////////////8AAP8AAP////////////////////////////////////8AAP8AAP//
+        //////////////////////////////////////////////////////////////////////////8AAP8A
+        AP////////////////////////////////////8AAP8AAP//////////////////////////////////
+        //////////////////////////////////////////8AAP8AAP//////////////////////////////
+        //////8AAP8AAP//////////////////////////////////////////////////////////////////
+        //////////8AAP8AAP////////////////////////////////////8AAP8AAP//////////////////
+        //////////////////////////////////////////////////////////8AAP8AAP//////////////
+        //////////////////////8AAP8AAP//////////////////////////////////////////////////
+        //////////////////////////8AAP8AAP////////////////////////////////////8AAP8AAP//
+        //////////////////////////////////////////////////////////////////////////8AAP8A
+        AP////////////////////////////////////8AAP8AAP//////////////////////////////////
+        //////////////////////////////////////////8AAP8AAP//////////////////////////////
+        //////8AAP8AAP//////////////////////////////////////////////////////////////////
+        //////////8AAP8AAP////////////////////////////////////8AAP8AAP//////////////////
+        //////////////////////////////////////////////////////////8AAP8AAP//////////////
+        //////////////////////8AAP8AAP////////////////////////////////////////////////8A
+        AP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8A
+        AP8AAP8AAP8AAP8AAP8AAP////////////////////////8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8A
+        AP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP//////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <metadata name="TimerEtatAuthentificationtCompteGestionBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>965, 56</value>
+  </metadata>
+  <metadata name="BackgroundWorkerAuthentificationtCompteGestionBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 95</value>
+  </metadata>
+  <metadata name="BackgroundWorkerAjoutCompteGestionBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>375, 95</value>
+  </metadata>
+  <metadata name="TimerEtatRechercheGestionBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>671, 95</value>
+  </metadata>
+  <metadata name="BackgroundWorkerRécupérationCompteGestionBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 134</value>
+  </metadata>
+  <metadata name="TimerEtatRécupérationCompteGestionBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>528, 134</value>
+  </metadata>
+  <metadata name="BackgroundWorkerSupprimerCompteGestionBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>814, 134</value>
+  </metadata>
+  <metadata name="TimerChargementEnregistrement.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>518, 173</value>
+  </metadata>
+  <metadata name="TimerEtatAjoutEnregistrement.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>750, 173</value>
+  </metadata>
+  <metadata name="BackgroundWorkerTransfert.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>965, 173</value>
+  </metadata>
+  <metadata name="BackgroundWorkerMiniVLCPlayer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 212</value>
+  </metadata>
+  <metadata name="BackgroundWorkerAjoutTreeviewPosition.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>252, 212</value>
+  </metadata>
+  <metadata name="TimerEtatAjoutTreeviewPosition.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>530, 212</value>
+  </metadata>
+  <metadata name="TimerSupprimeEnregistrement.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>755, 212</value>
+  </metadata>
+  <metadata name="BackgroundWorkerSupprimeEnregistrement.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>973, 212</value>
+  </metadata>
+  <metadata name="TimerEtatSupprimerCompteGestionBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 251</value>
+  </metadata>
+  <metadata name="BackgroundWorkerAjoutLiensRéférences.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>287, 251</value>
+  </metadata>
+  <metadata name="TimerEtatAjoutLiensRéférences.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>560, 251</value>
+  </metadata>
+  <metadata name="BackgroundWorkerSupprimeLiensRéférences.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>780, 251</value>
+  </metadata>
+  <metadata name="TimerEtatSupprimeLiensRéférences.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 290</value>
+  </metadata>
+  <metadata name="BackgroundWorkerChargementEnregistrement.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>260, 290</value>
+  </metadata>
+  <metadata name="TimerEtatDetailsEnregistrementW3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>567, 290</value>
+  </metadata>
+  <metadata name="TimerMiseàJourEnregistrement.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>808, 290</value>
+  </metadata>
+  <metadata name="TimerEtatDetailsEnregistrementW2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1028, 290</value>
+  </metadata>
+  <metadata name="Restauration_Base_OpenFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 329</value>
+  </metadata>
+  <metadata name="ColorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>256, 329</value>
+  </metadata>
+  <metadata name="OpenFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>379, 329</value>
+  </metadata>
+  <metadata name="PrintDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>521, 329</value>
+  </metadata>
+  <metadata name="ContextMenuStripModifierObjet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 173</value>
+  </metadata>
+  <metadata name="SaveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>640, 329</value>
+  </metadata>
+  <metadata name="Timer3AutocompleteRsMotsClefs.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>777, 329</value>
+  </metadata>
+  <metadata name="Timer2EtatServeur.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1010, 329</value>
+  </metadata>
+  <metadata name="Timer1EtatServeur.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 368</value>
+  </metadata>
+  <metadata name="Tâche_de_fond_RS_MOTS_CLEFS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>168, 368</value>
+  </metadata>
+  <metadata name="Tâche_de_fond_SAPI.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>396, 368</value>
+  </metadata>
+  <metadata name="BackgroundWorkerMiseàJourEnregistrement.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>559, 368</value>
+  </metadata>
+  <metadata name="Tâche_de_fond.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>854, 368</value>
+  </metadata>
+  <metadata name="BackgroundWorkerDetailsEnregistrementW2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 407</value>
+  </metadata>
+  <metadata name="BackgroundWorker_RS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>312, 407</value>
+  </metadata>
+  <metadata name="BackgroundWorker_RG.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>488, 407</value>
+  </metadata>
+  <metadata name="BackgroundWorker_Diagnostic.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>666, 407</value>
+  </metadata>
+  <metadata name="BackgroundWorker_RA.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>886, 407</value>
+  </metadata>
+  <metadata name="TimerEtatRS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1063, 407</value>
+  </metadata>
+  <metadata name="TimerEtatRA.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 446</value>
+  </metadata>
+  <metadata name="TimerEtatRG.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>136, 446</value>
+  </metadata>
+  <metadata name="TimerEtatDetailsEnregistrementW1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>255, 446</value>
+  </metadata>
+  <metadata name="TimerEtatDiagnostic.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>496, 446</value>
+  </metadata>
+  <metadata name="BackgroundWorkerDetailsEnregistrementW1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>657, 446</value>
+  </metadata>
+</root>
